@@ -9,6 +9,15 @@
 - [[Minimal Theme Settings]]
 - [[Folder Notes]]
 - [[Admonition]]
+- [[Advanced Slides]]
+- [[Advanced Tables]]
+- [[AnyBlock]]
+- [[Better Word Count]]
+- [[Calendar]]
+- [[Charts View]]
+- [[Copilot]]
+- [[DataLoom]]
+- [[Dataview]]
 
 ## Todo
 
