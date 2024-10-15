@@ -61,6 +61,7 @@
           {
             "id": "b1ca9d99c3f1197a",
             "type": "tabs",
+            "dimension": 65.81027667984189,
             "children": [
               {
                 "id": "67d9b1243aecdd1a",
@@ -100,6 +101,21 @@
                 "type": "leaf",
                 "state": {
                   "type": "mk-path-view",
+                  "state": {}
+                }
+              }
+            ]
+          },
+          {
+            "id": "ed96a03b0f2ab788",
+            "type": "tabs",
+            "dimension": 34.18972332015811,
+            "children": [
+              {
+                "id": "6a8e125dd1a0f6d3",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
                   "state": {}
                 }
               }
@@ -178,16 +194,9 @@
                     "searchQuery": ""
                   }
                 }
-              },
-              {
-                "id": "6a8e125dd1a0f6d3",
-                "type": "leaf",
-                "state": {
-                  "type": "calendar",
-                  "state": {}
-                }
               }
-            ]
+            ],
+            "currentTab": 4
           }
         ],
         "direction": "horizontal",
@@ -206,15 +215,11 @@
           "obsidian-advanced-slides:Show Slide Preview": false,
           "table-editor-obsidian:Advanced Tables Toolbar": false,
           "notion-like-tables:Create loom": false,
-          "copilot:Copilot Chat": false,
-          "obsidian-excalidraw-plugin:Create new drawing": false,
-          "obsidian-git:Open Git source control": false,
-          "obsidian-leaflet-plugin:Open Leaflet Map": false,
-          "custom-sort:Toggle custom sorting": false
+          "copilot:Copilot Chat": false
         }
       },
       "active": "df066c28284901af",
-      "mtime": "2024-10-15T23:49:02+09:00"
+      "mtime": "2024-10-15T23:51:15+09:00"
     }
   },
   "active": "Default"
