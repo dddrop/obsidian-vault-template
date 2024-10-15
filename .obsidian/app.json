@@ -1,1 +1,6 @@
-{}
+{
+  "alwaysUpdateLinks": false,
+  "promptDelete": false,
+  "showUnsupportedFiles": true,
+  "trashOption": "local"
+}
