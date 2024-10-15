@@ -1,3 +1,6 @@
 {
-  "cssTheme": "Minimal"
+  "cssTheme": "Minimal",
+  "interfaceFontFamily": "Hack Nerd Font",
+  "textFontFamily": "Hack Nerd Font",
+  "monospaceFontFamily": "Hack Nerd Font"
 }
