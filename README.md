@@ -18,6 +18,7 @@
 - [[Copilot]]
 - [[DataLoom]]
 - [[Dataview]]
+- [[Templater]]
 
 ## Todo
 
