@@ -24,6 +24,7 @@
 - [[Excalidraw]]
 - [[Editing Toolbar]]
 - [[Git]]
+- [[Iconize]]
 
 ## Todo
 
