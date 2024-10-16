@@ -31,6 +31,7 @@
 - [[PlantUML]]
 - [[Day Planner]]
 - [[Leaflet]]
+- [[Markdown prettifier]]
 
 ## Todo
 
