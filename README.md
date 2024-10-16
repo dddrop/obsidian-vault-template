@@ -33,6 +33,7 @@
 - [[Leaflet]]
 - [[Markdown prettifier]]
 - [[Mermaid Tools]]
+- [[Text Generator]]
 
 ## Todo
 
@@ -40,6 +41,7 @@
 - [ ] Create shortcuts for Admonition blocks
 - [ ] Setup OpenAPI key for Copilot plugin
 - [ ] Setup OpenAPI key for Excalidraw plugin
+- [ ] Setup OpenAPI key for Text Generator plugin
 - [ ] Setup git plugin
 - [ ] Config jira plugin
 - [ ] Config remote calendar for Day Planner plugin
