@@ -1,4 +1,4 @@
-# Amethyst
+# Obsidian Vault Template
 
 ## Theme
 
