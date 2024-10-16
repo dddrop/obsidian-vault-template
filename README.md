@@ -41,6 +41,7 @@
 - [[Open vault in VSCode]]
 - [[Style Settings]]
 - [[VSCode Editor]]
+- [[File Tree Alternative]]
 
 ## Todo
 
