@@ -34,6 +34,7 @@
 - [[Markdown prettifier]]
 - [[Mermaid Tools]]
 - [[Text Generator]]
+- [[Tasks Calendar Wrapper]]
 
 ## Todo
 
