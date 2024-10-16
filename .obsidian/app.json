@@ -2,5 +2,7 @@
   "alwaysUpdateLinks": false,
   "promptDelete": false,
   "showUnsupportedFiles": true,
-  "trashOption": "local"
+  "trashOption": "local",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "0x0000 - Inbox"
 }
