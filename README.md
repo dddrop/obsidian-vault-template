@@ -30,6 +30,7 @@
 - [[Latex Suite]]
 - [[PlantUML]]
 - [[Day Planner]]
+- [[Leaflet]]
 
 ## Todo
 
