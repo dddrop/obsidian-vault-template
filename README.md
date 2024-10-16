@@ -21,8 +21,11 @@
 - [[Templater]]
 - [[QuickAdd]]
 - [[Periodic Notes]]
+- [[Excalidraw]]
 
 ## Todo
 
 - [ ] Create manuals for plugins
 - [ ] Create shortcuts for Admonition blocks
+- [ ] Setup OpenAPI key for Copilot plugin
+- [ ] Setup OpenAPI key for Excalidraw plugin
