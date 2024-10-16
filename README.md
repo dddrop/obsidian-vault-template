@@ -39,6 +39,7 @@
 - [[Text Extractor]]
 - [[AI image analyzer]]
 - [[Omnisearch]]
+- [[Open vault in VSCode]]
 
 ## Todo
 

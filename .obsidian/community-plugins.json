@@ -32,5 +32,6 @@
   "obsidian-pandoc",
   "omnisearch",
   "text-extractor",
-  "ai-image-analyzer"
+  "ai-image-analyzer",
+  "open-vscode"
 ]
