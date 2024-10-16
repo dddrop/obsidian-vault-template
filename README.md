@@ -40,6 +40,7 @@
 - [[Omnisearch]]
 - [[Open vault in VSCode]]
 - [[Style Settings]]
+- [[VSCode Editor]]
 
 ## Todo
 

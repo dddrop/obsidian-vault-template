@@ -33,5 +33,6 @@
   "text-extractor",
   "ai-image-analyzer",
   "open-vscode",
-  "obsidian-style-settings"
+  "obsidian-style-settings",
+  "vscode-editor"
 ]
