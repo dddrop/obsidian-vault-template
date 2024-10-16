@@ -43,6 +43,7 @@
 - [[VSCode Editor]]
 - [[File Tree Alternative]]
 - [[Projects]]
+- [[CardBoard]]
 
 ## Todo
 
