@@ -27,6 +27,7 @@
 - [[Iconize]]
 - [[Jira Issue]]
 - [[Outliner]]
+- [[Latex Suite]]
 
 ## Todo
 
