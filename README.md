@@ -25,6 +25,7 @@
 - [[Editing Toolbar]]
 - [[Git]]
 - [[Iconize]]
+- [[Jira Issue]]
 
 ## Todo
 
@@ -33,3 +34,4 @@
 - [ ] Setup OpenAPI key for Copilot plugin
 - [ ] Setup OpenAPI key for Excalidraw plugin
 - [ ] Setup git plugin
+- [ ] Config jira plugin
