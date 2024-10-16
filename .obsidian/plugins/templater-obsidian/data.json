@@ -15,8 +15,8 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "",
-      "template": ""
+      "folder": "0x0000 - Inbox",
+      "template": "0xFFFF - Preferences/0xFFFF_2001 - Templates/0x0001 - Inbox.md"
     }
   ],
   "enable_file_templates": false,
