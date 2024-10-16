@@ -22,6 +22,7 @@
 - [[QuickAdd]]
 - [[Periodic Notes]]
 - [[Excalidraw]]
+- [[Editing Toolbar]]
 
 ## Todo
 
