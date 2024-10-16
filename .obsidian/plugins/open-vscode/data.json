@@ -1,6 +1,6 @@
 {
   "ribbonIcon": true,
-  "ribbonCommandUsesCode": true,
+  "ribbonCommandUsesCode": false,
   "executeTemplate": "code \"{{vaultpath}}\" \"{{vaultpath}}/{{filepath}}\"",
   "openFile": true,
   "workspacePath": "{{vaultpath}}",

@@ -45,6 +45,7 @@
 - [[Projects]]
 - [[CardBoard]]
 - [[Kanban]]
+- [[ZettelFlow]]
 
 ## Todo
 
