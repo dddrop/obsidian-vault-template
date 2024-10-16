@@ -28,6 +28,7 @@
 - [[Jira Issue]]
 - [[Outliner]]
 - [[Latex Suite]]
+- [[PlantUML]]
 
 ## Todo
 
