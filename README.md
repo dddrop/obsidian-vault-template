@@ -26,6 +26,7 @@
 - [[Git]]
 - [[Iconize]]
 - [[Jira Issue]]
+- [[Outliner]]
 
 ## Todo
 
