@@ -36,6 +36,9 @@
 - [[Text Generator]]
 - [[Tasks Calendar Wrapper]]
 - [[Pandoc Plugin]]
+- [[Text Extractor]]
+- [[AI image analyzer]]
+- [[Omnisearch]]
 
 ## Todo
 

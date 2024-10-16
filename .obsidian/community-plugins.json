@@ -29,5 +29,8 @@
   "mermaid-tools",
   "obsidian-textgenerator-plugin",
   "tasks-calendar-wrapper",
-  "obsidian-pandoc"
+  "obsidian-pandoc",
+  "omnisearch",
+  "text-extractor",
+  "ai-image-analyzer"
 ]
