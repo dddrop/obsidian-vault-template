@@ -44,6 +44,7 @@
 - [[File Tree Alternative]]
 - [[Projects]]
 - [[CardBoard]]
+- [[Kanban]]
 
 ## Todo
 
