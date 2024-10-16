@@ -1,4 +1,6 @@
 ---
-tags: 
+tags:
+  - diary
+  - monthly
 template: "[[0x0011 - Diary - Monthly]]"
 ---

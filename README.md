@@ -20,6 +20,7 @@
 - [[Dataview]]
 - [[Templater]]
 - [[QuickAdd]]
+- [[Periodic Notes]]
 
 ## Todo
 
