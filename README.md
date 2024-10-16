@@ -32,6 +32,7 @@
 - [[Day Planner]]
 - [[Leaflet]]
 - [[Markdown prettifier]]
+- [[Mermaid Tools]]
 
 ## Todo
 
