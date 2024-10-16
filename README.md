@@ -42,6 +42,7 @@
 - [[Style Settings]]
 - [[VSCode Editor]]
 - [[File Tree Alternative]]
+- [[Projects]]
 
 ## Todo
 
