@@ -6,7 +6,6 @@
 
 ## Community Plugins
 
-- [[Minimal Theme Settings]]
 - [[Folder Notes]]
 - [[Admonition]]
 - [[Advanced Slides]]
@@ -18,8 +17,43 @@
 - [[Copilot]]
 - [[DataLoom]]
 - [[Dataview]]
+- [[Templater]]
+- [[QuickAdd]]
+- [[Periodic Notes]]
+- [[Excalidraw]]
+- [[Editing Toolbar]]
+- [[Git]]
+- [[Iconize]]
+- [[Jira Issue]]
+- [[Outliner]]
+- [[Latex Suite]]
+- [[PlantUML]]
+- [[Day Planner]]
+- [[Leaflet]]
+- [[Markdown prettifier]]
+- [[Mermaid Tools]]
+- [[Text Generator]]
+- [[Tasks Calendar Wrapper]]
+- [[Pandoc Plugin]]
+- [[Text Extractor]]
+- [[AI image analyzer]]
+- [[Omnisearch]]
+- [[Open vault in VSCode]]
+- [[Style Settings]]
+- [[VSCode Editor]]
+- [[File Tree Alternative]]
+- [[Projects]]
+- [[CardBoard]]
+- [[Kanban]]
+- [[ZettelFlow]]
 
 ## Todo
 
 - [ ] Create manuals for plugins
 - [ ] Create shortcuts for Admonition blocks
+- [ ] Setup OpenAPI key for Copilot plugin
+- [ ] Setup OpenAPI key for Excalidraw plugin
+- [ ] Setup OpenAPI key for Text Generator plugin
+- [ ] Setup git plugin
+- [ ] Config jira plugin
+- [ ] Config remote calendar for Day Planner plugin
