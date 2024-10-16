@@ -23,6 +23,7 @@
 - [[Periodic Notes]]
 - [[Excalidraw]]
 - [[Editing Toolbar]]
+- [[Git]]
 
 ## Todo
 
@@ -30,3 +31,4 @@
 - [ ] Create shortcuts for Admonition blocks
 - [ ] Setup OpenAPI key for Copilot plugin
 - [ ] Setup OpenAPI key for Excalidraw plugin
+- [ ] Setup git plugin
