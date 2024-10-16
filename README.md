@@ -19,6 +19,7 @@
 - [[DataLoom]]
 - [[Dataview]]
 - [[Templater]]
+- [[QuickAdd]]
 
 ## Todo
 
