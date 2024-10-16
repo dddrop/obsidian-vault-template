@@ -6,7 +6,6 @@
 
 ## Community Plugins
 
-- [[Minimal Theme Settings]]
 - [[Folder Notes]]
 - [[Admonition]]
 - [[Advanced Slides]]
@@ -40,6 +39,7 @@
 - [[AI image analyzer]]
 - [[Omnisearch]]
 - [[Open vault in VSCode]]
+- [[Style Settings]]
 
 ## Todo
 

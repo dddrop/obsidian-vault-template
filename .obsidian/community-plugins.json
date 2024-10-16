@@ -1,5 +1,4 @@
 [
-  "obsidian-minimal-settings",
   "obsidian-admonition",
   "folder-notes",
   "obsidian-advanced-slides",
@@ -33,5 +32,6 @@
   "omnisearch",
   "text-extractor",
   "ai-image-analyzer",
-  "open-vscode"
+  "open-vscode",
+  "obsidian-style-settings"
 ]
