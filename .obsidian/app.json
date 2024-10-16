@@ -4,5 +4,6 @@
   "showUnsupportedFiles": true,
   "trashOption": "local",
   "newFileLocation": "folder",
-  "newFileFolderPath": "0x0000 - Inbox"
+  "newFileFolderPath": "0x0000 - Inbox",
+  "attachmentFolderPath": "0xEEEE - Resources"
 }
