@@ -29,6 +29,7 @@
 - [[Outliner]]
 - [[Latex Suite]]
 - [[PlantUML]]
+- [[Day Planner]]
 
 ## Todo
 
@@ -38,3 +39,4 @@
 - [ ] Setup OpenAPI key for Excalidraw plugin
 - [ ] Setup git plugin
 - [ ] Config jira plugin
+- [ ] Config remote calendar for Day Planner plugin
