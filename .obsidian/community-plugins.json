@@ -28,5 +28,6 @@
   "markdown-prettifier",
   "mermaid-tools",
   "obsidian-textgenerator-plugin",
-  "tasks-calendar-wrapper"
+  "tasks-calendar-wrapper",
+  "obsidian-pandoc"
 ]
