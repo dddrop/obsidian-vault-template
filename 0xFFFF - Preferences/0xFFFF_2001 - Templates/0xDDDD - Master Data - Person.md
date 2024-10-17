@@ -13,4 +13,6 @@ phone:
 english_name: 
 birthday: 
 template: "[[0xDDDD - Master Data - Person]]"
+created_at: <% tp.user.datetime() %>
+updated_at: <% tp.user.datetime() %>
 ---

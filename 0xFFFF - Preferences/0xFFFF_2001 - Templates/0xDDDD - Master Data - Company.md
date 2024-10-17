@@ -10,5 +10,7 @@ tags:
   - company
 aliases: 
 template: "[[0xDDDD - Master Data - Company]]"
+created_at: <% tp.user.datetime() %>
+updated_at: <% tp.user.datetime() %>
 ---
 
