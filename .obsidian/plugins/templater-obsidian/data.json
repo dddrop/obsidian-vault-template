@@ -17,6 +17,10 @@
     {
       "folder": "0x0000 - Inbox",
       "template": "0xFFFF - Preferences/0xFFFF_2001 - Templates/0x0001 - Inbox.md"
+    },
+    {
+      "folder": "0x9999 - Wiki",
+      "template": "0xFFFF - Preferences/0xFFFF_2001 - Templates/0x9999 - Wiki.md"
     }
   ],
   "enable_file_templates": false,
