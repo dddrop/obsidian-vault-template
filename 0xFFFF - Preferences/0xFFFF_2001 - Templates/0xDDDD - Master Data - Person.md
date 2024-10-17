@@ -1,11 +1,12 @@
 ---
 aliases: 
-project: 
 company: 
 department: 
 email: 
-last_name: 
-first_name: 
+family_name: 
+given_name: 
+romaji: 
+pinyin: 
 phone: 
 english_name: 
 birthday: 

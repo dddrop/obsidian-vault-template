@@ -28,6 +28,7 @@
     "english": "multitext",
     "日本語": "multitext",
     "中文": "multitext",
-    "company": "text"
+    "company": "text",
+    "birthday": "date"
   }
 }
