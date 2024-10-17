@@ -21,6 +21,14 @@
     {
       "folder": "0x9999 - Wiki",
       "template": "0xFFFF - Preferences/0xFFFF_2001 - Templates/0x9999 - Wiki.md"
+    },
+    {
+      "folder": "0xDDDD - Master Data/Person",
+      "template": "0xFFFF - Preferences/0xFFFF_2001 - Templates/0xDDDD - Master Data - Person.md"
+    },
+    {
+      "folder": "0xDDDD - Master Data/Company",
+      "template": "0xFFFF - Preferences/0xFFFF_2001 - Templates/0xDDDD - Master Data - Company.md"
     }
   ],
   "enable_file_templates": false,

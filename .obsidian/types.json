@@ -27,6 +27,7 @@
     "updated_at": "datetime",
     "english": "multitext",
     "日本語": "multitext",
-    "中文": "multitext"
+    "中文": "multitext",
+    "company": "text"
   }
 }
