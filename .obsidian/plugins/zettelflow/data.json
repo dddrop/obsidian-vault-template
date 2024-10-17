@@ -1,9 +1,10 @@
 {
-  "loggerEnabled": false,
+  "loggerEnabled": true,
   "uniquePrefixEnabled": false,
   "uniquePrefix": "YYYYMMDDHHmmss",
   "foldersFlowsPath": "_ZettelFlow",
-  "ribbonCanvas": "",
-  "editorCanvas": "",
-  "jsLibraryFolderPath": ""
+  "ribbonCanvas": "0xFFFF - Preferences/0xFFFF_4001 - ZettelFlow/zettelflow_new.canvas",
+  "editorCanvas": "0xFFFF - Preferences/0xFFFF_4001 - ZettelFlow/zettelflow_edit.canvas",
+  "jsLibraryFolderPath": "0xFFFF - Preferences/0xFFFF_4001 - ZettelFlow/scripts",
+  "logLevel": "trace"
 }

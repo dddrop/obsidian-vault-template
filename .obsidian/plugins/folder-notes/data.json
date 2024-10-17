@@ -9,7 +9,7 @@
   "excludeFolders": [],
   "whitelistFolders": [],
   "showDeleteConfirmation": true,
-  "underlineFolder": true,
+  "underlineFolder": false,
   "stopWhitespaceCollapsing": true,
   "underlineFolderInPath": false,
   "openFolderNoteOnClickInPath": true,

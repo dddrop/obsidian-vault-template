@@ -27,7 +27,7 @@
   "blue-topaz-theme@@remove-arrow": false,
   "blue-topaz-theme@@folder-note-underline": false,
   "blue-topaz-theme@@folder-note-dot": true,
-  "blue-topaz-theme@@folder-style-change-options-colorful-subfolder": "folder-colorful-three",
+  "blue-topaz-theme@@folder-style-change-options-colorful-subfolder": "folder-colorful-two",
   "blue-topaz-theme@@bt-toggle-colorful-folder": true,
   "blue-topaz-theme@@folder-style-change-options-colorful": "folder-style-change-options-colorful-border",
   "blue-topaz-theme@@bt-status-on": false,
@@ -62,5 +62,6 @@
   "blue-topaz-theme@@font-family-tag": "'Hack Nerd Font'",
   "blue-topaz-theme@@font-family-strong": "'Hack Nerd Font'",
   "blue-topaz-theme@@font-family-vault": "'Hack Nerd Font'",
-  "blue-topaz-theme@@font-size-folder-and-file": "0.8em"
+  "blue-topaz-theme@@font-size-folder-and-file": "0.8em",
+  "blue-topaz-theme@@style-options-for-buttons-plugin": true
 }
