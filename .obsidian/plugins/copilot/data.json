@@ -11,6 +11,7 @@
   "azureOpenAIApiEmbeddingDeploymentName": "",
   "googleApiKey": "",
   "openRouterAiApiKey": "",
+  "defaultChainType": "llm_chain",
   "defaultModelKey": "gpt-4o|openai",
   "embeddingModelKey": "text-embedding-3-small|openai",
   "temperature": 0.1,
