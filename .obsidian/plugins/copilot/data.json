@@ -27,6 +27,7 @@
   "customPromptsFolder": "copilot-custom-prompts",
   "indexVaultToVectorStore": "ON MODE SWITCH",
   "qaExclusions": "",
+  "qaInclusions": "",
   "chatNoteContextPath": "",
   "chatNoteContextTags": [],
   "debug": false,
