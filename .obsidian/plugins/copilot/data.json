@@ -24,6 +24,7 @@
   "defaultSaveFolder": "0x0000 - Index/0x0000_A001 - Auto Generated",
   "defaultConversationTag": "ai_conversations",
   "autosaveChat": true,
+  "defaultOpenArea": "view",
   "customPromptsFolder": "copilot-custom-prompts",
   "indexVaultToVectorStore": "ON MODE SWITCH",
   "qaExclusions": "",
@@ -147,6 +148,7 @@
     }
   ],
   "embeddingRequestsPerSecond": 10,
+  "disableIndexOnMobile": false,
   "enabledCommands": {
     "fix-grammar-prompt": {
       "enabled": true,
