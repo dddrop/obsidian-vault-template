@@ -52,117 +52,6 @@ var __privateWrapper = (obj, member, setter, getter) => ({
   }
 });
 
-// node_modules/pure-md5/lib/index.js
-var require_lib = __commonJS({
-  "node_modules/pure-md5/lib/index.js"(exports, module2) {
-    !function(r, n) {
-      if ("object" == typeof exports && "object" == typeof module2) module2.exports = n();
-      else if ("function" == typeof define && define.amd) define([], n);
-      else {
-        var e = n();
-        for (var t in e) ("object" == typeof exports ? exports : r)[t] = e[t];
-      }
-    }("undefined" != typeof self ? self : exports, function() {
-      return function(r) {
-        var n = {};
-        function e(t) {
-          if (n[t]) return n[t].exports;
-          var o = n[t] = { i: t, l: false, exports: {} };
-          return r[t].call(o.exports, o, o.exports, e), o.l = true, o.exports;
-        }
-        return e.m = r, e.c = n, e.d = function(r2, n2, t) {
-          e.o(r2, n2) || Object.defineProperty(r2, n2, { enumerable: true, get: t });
-        }, e.r = function(r2) {
-          "undefined" != typeof Symbol && Symbol.toStringTag && Object.defineProperty(r2, Symbol.toStringTag, { value: "Module" }), Object.defineProperty(r2, "__esModule", { value: true });
-        }, e.t = function(r2, n2) {
-          if (1 & n2 && (r2 = e(r2)), 8 & n2) return r2;
-          if (4 & n2 && "object" == typeof r2 && r2 && r2.__esModule) return r2;
-          var t = /* @__PURE__ */ Object.create(null);
-          if (e.r(t), Object.defineProperty(t, "default", { enumerable: true, value: r2 }), 2 & n2 && "string" != typeof r2) for (var o in r2) e.d(t, o, function(n3) {
-            return r2[n3];
-          }.bind(null, o));
-          return t;
-        }, e.n = function(r2) {
-          var n2 = r2 && r2.__esModule ? function() {
-            return r2.default;
-          } : function() {
-            return r2;
-          };
-          return e.d(n2, "a", n2), n2;
-        }, e.o = function(r2, n2) {
-          return Object.prototype.hasOwnProperty.call(r2, n2);
-        }, e.p = "", e(e.s = 0);
-      }([function(r, n, e) {
-        "use strict";
-        e.r(n), e.d(n, "md5", function() {
-          return p;
-        });
-        var t = "0123456789abcdef".split("");
-        var o = function(r2) {
-          for (var n2 = "", e2 = 0; e2 < 4; e2++) n2 += t[r2 >> 8 * e2 + 4 & 15] + t[r2 >> 8 * e2 & 15];
-          return n2;
-        };
-        var u = function(r2) {
-          for (var n2 = r2.length, e2 = 0; e2 < n2; e2++) r2[e2] = o(r2[e2]);
-          return r2.join("");
-        };
-        var f = function(r2, n2) {
-          return r2 + n2 & 4294967295;
-        };
-        var i = function(r2, n2, e2, t2, o2, u2, i2) {
-          return function(r3, n3, e3) {
-            return f(r3 << n3 | r3 >>> 32 - n3, e3);
-          }(n2 = function(r3, n3, e3, t3) {
-            return n3 = f(f(n3, r3), f(e3, t3));
-          }(r2, n2, t2, u2), o2, e2);
-        };
-        var a = function(r2, n2, e2, t2, o2, u2, f2, a2) {
-          return i(e2 & t2 | ~e2 & o2, n2, e2, u2, f2, a2, r2);
-        };
-        var c = function(r2, n2, e2, t2, o2, u2, f2, a2) {
-          return i(e2 & o2 | t2 & ~o2, n2, e2, u2, f2, a2, r2);
-        };
-        var l = function(r2, n2, e2, t2, o2, u2, f2, a2) {
-          return i(e2 ^ t2 ^ o2, n2, e2, u2, f2, a2, r2);
-        };
-        var d = function(r2, n2, e2, t2, o2, u2, f2, a2) {
-          return i(t2 ^ (e2 | ~o2), n2, e2, u2, f2, a2, r2);
-        };
-        var v = function(r2, n2, e2) {
-          void 0 === e2 && (e2 = f);
-          var t2 = r2[0], o2 = r2[1], u2 = r2[2], i2 = r2[3], v2 = a.bind(null, e2);
-          t2 = v2(t2, o2, u2, i2, n2[0], 7, -680876936), i2 = v2(i2, t2, o2, u2, n2[1], 12, -389564586), u2 = v2(u2, i2, t2, o2, n2[2], 17, 606105819), o2 = v2(o2, u2, i2, t2, n2[3], 22, -1044525330), t2 = v2(t2, o2, u2, i2, n2[4], 7, -176418897), i2 = v2(i2, t2, o2, u2, n2[5], 12, 1200080426), u2 = v2(u2, i2, t2, o2, n2[6], 17, -1473231341), o2 = v2(o2, u2, i2, t2, n2[7], 22, -45705983), t2 = v2(t2, o2, u2, i2, n2[8], 7, 1770035416), i2 = v2(i2, t2, o2, u2, n2[9], 12, -1958414417), u2 = v2(u2, i2, t2, o2, n2[10], 17, -42063), o2 = v2(o2, u2, i2, t2, n2[11], 22, -1990404162), t2 = v2(t2, o2, u2, i2, n2[12], 7, 1804603682), i2 = v2(i2, t2, o2, u2, n2[13], 12, -40341101), u2 = v2(u2, i2, t2, o2, n2[14], 17, -1502002290), o2 = v2(o2, u2, i2, t2, n2[15], 22, 1236535329);
-          var s2 = c.bind(null, e2);
-          t2 = s2(t2, o2, u2, i2, n2[1], 5, -165796510), i2 = s2(i2, t2, o2, u2, n2[6], 9, -1069501632), u2 = s2(u2, i2, t2, o2, n2[11], 14, 643717713), o2 = s2(o2, u2, i2, t2, n2[0], 20, -373897302), t2 = s2(t2, o2, u2, i2, n2[5], 5, -701558691), i2 = s2(i2, t2, o2, u2, n2[10], 9, 38016083), u2 = s2(u2, i2, t2, o2, n2[15], 14, -660478335), o2 = s2(o2, u2, i2, t2, n2[4], 20, -405537848), t2 = s2(t2, o2, u2, i2, n2[9], 5, 568446438), i2 = s2(i2, t2, o2, u2, n2[14], 9, -1019803690), u2 = s2(u2, i2, t2, o2, n2[3], 14, -187363961), o2 = s2(o2, u2, i2, t2, n2[8], 20, 1163531501), t2 = s2(t2, o2, u2, i2, n2[13], 5, -1444681467), i2 = s2(i2, t2, o2, u2, n2[2], 9, -51403784), u2 = s2(u2, i2, t2, o2, n2[7], 14, 1735328473), o2 = s2(o2, u2, i2, t2, n2[12], 20, -1926607734);
-          var b2 = l.bind(null, e2);
-          t2 = b2(t2, o2, u2, i2, n2[5], 4, -378558), i2 = b2(i2, t2, o2, u2, n2[8], 11, -2022574463), u2 = b2(u2, i2, t2, o2, n2[11], 16, 1839030562), o2 = b2(o2, u2, i2, t2, n2[14], 23, -35309556), t2 = b2(t2, o2, u2, i2, n2[1], 4, -1530992060), i2 = b2(i2, t2, o2, u2, n2[4], 11, 1272893353), u2 = b2(u2, i2, t2, o2, n2[7], 16, -155497632), o2 = b2(o2, u2, i2, t2, n2[10], 23, -1094730640), t2 = b2(t2, o2, u2, i2, n2[13], 4, 681279174), i2 = b2(i2, t2, o2, u2, n2[0], 11, -358537222), u2 = b2(u2, i2, t2, o2, n2[3], 16, -722521979), o2 = b2(o2, u2, i2, t2, n2[6], 23, 76029189), t2 = b2(t2, o2, u2, i2, n2[9], 4, -640364487), i2 = b2(i2, t2, o2, u2, n2[12], 11, -421815835), u2 = b2(u2, i2, t2, o2, n2[15], 16, 530742520), o2 = b2(o2, u2, i2, t2, n2[2], 23, -995338651);
-          var p2 = d.bind(null, e2);
-          t2 = p2(t2, o2, u2, i2, n2[0], 6, -198630844), i2 = p2(i2, t2, o2, u2, n2[7], 10, 1126891415), u2 = p2(u2, i2, t2, o2, n2[14], 15, -1416354905), o2 = p2(o2, u2, i2, t2, n2[5], 21, -57434055), t2 = p2(t2, o2, u2, i2, n2[12], 6, 1700485571), i2 = p2(i2, t2, o2, u2, n2[3], 10, -1894986606), u2 = p2(u2, i2, t2, o2, n2[10], 15, -1051523), o2 = p2(o2, u2, i2, t2, n2[1], 21, -2054922799), t2 = p2(t2, o2, u2, i2, n2[8], 6, 1873313359), i2 = p2(i2, t2, o2, u2, n2[15], 10, -30611744), u2 = p2(u2, i2, t2, o2, n2[6], 15, -1560198380), o2 = p2(o2, u2, i2, t2, n2[13], 21, 1309151649), t2 = p2(t2, o2, u2, i2, n2[4], 6, -145523070), i2 = p2(i2, t2, o2, u2, n2[11], 10, -1120210379), u2 = p2(u2, i2, t2, o2, n2[2], 15, 718787259), o2 = p2(o2, u2, i2, t2, n2[9], 21, -343485551), r2[0] = e2(t2, r2[0]), r2[1] = e2(o2, r2[1]), r2[2] = e2(u2, r2[2]), r2[3] = e2(i2, r2[3]);
-        };
-        var s = function(r2) {
-          for (var n2 = [], e2 = 0; e2 < 64; e2 += 4) n2[e2 >> 2] = r2.charCodeAt(e2) + (r2.charCodeAt(e2 + 1) << 8) + (r2.charCodeAt(e2 + 2) << 16) + (r2.charCodeAt(e2 + 3) << 24);
-          return n2;
-        };
-        var b = function(r2, n2) {
-          var e2, t2 = r2.length, o2 = [1732584193, -271733879, -1732584194, 271733878];
-          for (e2 = 64; e2 <= t2; e2 += 64) v(o2, s(r2.substring(e2 - 64, e2)), n2);
-          var u2 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], f2 = (r2 = r2.substring(e2 - 64)).length;
-          for (e2 = 0; e2 < f2; e2++) u2[e2 >> 2] |= r2.charCodeAt(e2) << (e2 % 4 << 3);
-          if (u2[e2 >> 2] |= 128 << (e2 % 4 << 3), e2 > 55) for (v(o2, u2, n2), e2 = 16; e2--; ) u2[e2] = 0;
-          return u2[14] = 8 * t2, v(o2, u2, n2), o2;
-        };
-        function p(r2) {
-          var n2;
-          return "5d41402abc4b2a76b9719d911017c592" !== u(b("hello")) && (n2 = function(r3, n3) {
-            var e2 = (65535 & r3) + (65535 & n3);
-            return (r3 >> 16) + (n3 >> 16) + (e2 >> 16) << 16 | 65535 & e2;
-          }), u(b(r2, n2));
-        }
-      }]);
-    });
-  }
-});
-
 // node_modules/eventemitter3/index.js
 var require_eventemitter3 = __commonJS({
   "node_modules/eventemitter3/index.js"(exports, module2) {
@@ -858,8 +747,8 @@ if (!g.fetch) {
   g.Response = Response;
 }
 
-// node_modules/ollama/dist/shared/ollama.d8c046e0.mjs
-var version = "0.5.2";
+// node_modules/ollama/dist/shared/ollama.cddbc85b.mjs
+var version = "0.5.11";
 var __defProp$1 = Object.defineProperty;
 var __defNormalProp$1 = (obj, key, value) => key in obj ? __defProp$1(obj, key, { enumerable: true, configurable: true, writable: true, value }) : obj[key] = value;
 var __publicField$1 = (obj, key, value) => {
@@ -945,14 +834,19 @@ var fetchWithHeaders = async (fetch3, url, options = {}) => {
   if (!options.headers) {
     options.headers = {};
   }
+  const customHeaders = Object.fromEntries(
+    Object.entries(options.headers).filter(([key]) => !Object.keys(defaultHeaders).some((defaultKey) => defaultKey.toLowerCase() === key.toLowerCase()))
+  );
   options.headers = {
     ...defaultHeaders,
-    ...options.headers
+    ...customHeaders
   };
   return fetch3(url, options);
 };
-var get = async (fetch3, host) => {
-  const response = await fetchWithHeaders(fetch3, host);
+var get = async (fetch3, host, options) => {
+  const response = await fetchWithHeaders(fetch3, host, {
+    headers: options == null ? void 0 : options.headers
+  });
   await checkOk(response);
   return response;
 };
@@ -971,15 +865,17 @@ var post = async (fetch3, host, data, options) => {
   const response = await fetchWithHeaders(fetch3, host, {
     method: "POST",
     body: formattedData,
-    signal: options == null ? void 0 : options.signal
+    signal: options == null ? void 0 : options.signal,
+    headers: options == null ? void 0 : options.headers
   });
   await checkOk(response);
   return response;
 };
-var del = async (fetch3, host, data) => {
+var del = async (fetch3, host, data, options) => {
   const response = await fetchWithHeaders(fetch3, host, {
     method: "DELETE",
-    body: JSON.stringify(data)
+    body: JSON.stringify(data),
+    headers: options == null ? void 0 : options.headers
   });
   await checkOk(response);
   return response;
@@ -1020,7 +916,7 @@ var formatHost = (host) => {
   let isExplicitProtocol = host.includes("://");
   if (host.startsWith(":")) {
     host = `http://127.0.0.1${host}`;
-    isExplicitProtocol = false;
+    isExplicitProtocol = true;
   }
   if (!isExplicitProtocol) {
     host = `http://${host}`;
@@ -1048,20 +944,18 @@ var __publicField2 = (obj, key, value) => {
 };
 var Ollama$1 = class Ollama {
   constructor(config) {
-    var _a;
+    var _a, _b;
     __publicField2(this, "config");
     __publicField2(this, "fetch");
     __publicField2(this, "ongoingStreamedRequests", []);
     this.config = {
-      host: ""
+      host: "",
+      headers: config == null ? void 0 : config.headers
     };
     if (!(config == null ? void 0 : config.proxy)) {
       this.config.host = formatHost((_a = config == null ? void 0 : config.host) != null ? _a : "http://127.0.0.1:11434");
     }
-    this.fetch = fetch;
-    if ((config == null ? void 0 : config.fetch) != null) {
-      this.fetch = config.fetch;
-    }
+    this.fetch = (_b = config == null ? void 0 : config.fetch) != null ? _b : fetch;
   }
   // Abort any ongoing streamed requests to Ollama
   abort() {
@@ -1088,7 +982,8 @@ var Ollama$1 = class Ollama {
     if (request.stream) {
       const abortController = new AbortController();
       const response2 = await post(this.fetch, host, request, {
-        signal: abortController.signal
+        signal: abortController.signal,
+        headers: this.config.headers
       });
       if (!response2.body) {
         throw new Error("Missing body");
@@ -1107,7 +1002,9 @@ var Ollama$1 = class Ollama {
       this.ongoingStreamedRequests.push(abortableAsyncIterator);
       return abortableAsyncIterator;
     }
-    const response = await post(this.fetch, host, request);
+    const response = await post(this.fetch, host, request, {
+      headers: this.config.headers
+    });
     return await response.json();
   }
   /**
@@ -1207,9 +1104,12 @@ var Ollama$1 = class Ollama {
    * @returns {Promise<StatusResponse>} - The response object.
    */
   async delete(request) {
-    await del(this.fetch, `${this.config.host}/api/delete`, {
-      name: request.model
-    });
+    await del(
+      this.fetch,
+      `${this.config.host}/api/delete`,
+      { name: request.model },
+      { headers: this.config.headers }
+    );
     return { status: "success" };
   }
   /**
@@ -1219,7 +1119,9 @@ var Ollama$1 = class Ollama {
    * @returns {Promise<StatusResponse>} - The response object.
    */
   async copy(request) {
-    await post(this.fetch, `${this.config.host}/api/copy`, { ...request });
+    await post(this.fetch, `${this.config.host}/api/copy`, { ...request }, {
+      headers: this.config.headers
+    });
     return { status: "success" };
   }
   /**
@@ -1228,7 +1130,9 @@ var Ollama$1 = class Ollama {
    * @throws {Error} - If the response body is missing.
    */
   async list() {
-    const response = await get(this.fetch, `${this.config.host}/api/tags`);
+    const response = await get(this.fetch, `${this.config.host}/api/tags`, {
+      headers: this.config.headers
+    });
     return await response.json();
   }
   /**
@@ -1239,6 +1143,21 @@ var Ollama$1 = class Ollama {
   async show(request) {
     const response = await post(this.fetch, `${this.config.host}/api/show`, {
       ...request
+    }, {
+      headers: this.config.headers
+    });
+    return await response.json();
+  }
+  /**
+   * Embeds text input into vectors.
+   * @param request {EmbedRequest} - The request object.
+   * @returns {Promise<EmbedResponse>} - The response object.
+   */
+  async embed(request) {
+    const response = await post(this.fetch, `${this.config.host}/api/embed`, {
+      ...request
+    }, {
+      headers: this.config.headers
     });
     return await response.json();
   }
@@ -1250,6 +1169,8 @@ var Ollama$1 = class Ollama {
   async embeddings(request) {
     const response = await post(this.fetch, `${this.config.host}/api/embeddings`, {
       ...request
+    }, {
+      headers: this.config.headers
     });
     return await response.json();
   }
@@ -1259,7 +1180,9 @@ var Ollama$1 = class Ollama {
    * @throws {Error} - If the response body is missing.
    */
   async ps() {
-    const response = await get(this.fetch, `${this.config.host}/api/ps`);
+    const response = await get(this.fetch, `${this.config.host}/api/ps`, {
+      headers: this.config.headers
+    });
     return await response.json();
   }
 };
@@ -1398,7 +1321,7 @@ var Ollama2 = class extends Ollama$1 {
 var index = new Ollama2();
 
 // src/cache.ts
-var import_pure_md5 = __toESM(require_lib());
+var import_crypto2 = require("crypto");
 
 // package.json
 var version2 = "0.1.10";
@@ -1858,6 +1781,8 @@ onEvent_fn = async function(event, filter) {
 var libVersion = version2;
 var possibleModels = [
   { name: "llava-llama3 (8B) [default]", model: "llava-llama3:latest" },
+  { name: "llama3.2-vision (11B)", model: "llama3.2-vision:11b" },
+  { name: "llama3.2-vision (90B)", model: "llama3.2-vision:90b" },
   { name: "llava (7B)", model: "llava:latest" },
   { name: "llava (13B)", model: "llava:13b" },
   { name: "llava (34B)", model: "llava:34b" }
@@ -1869,7 +1794,7 @@ function getCacheBasePath() {
   return `${app.vault.configDir}/plugins/ai-image-analyzer/cache`;
 }
 function getCachePath(file) {
-  const hash = (0, import_pure_md5.md5)(file.path);
+  const hash = (0, import_crypto2.createHash)("md5").update(file.path).digest("hex");
   const folder = `${getCacheBasePath()}`;
   const filename = `${hash}.json`;
   return `${folder}/${filename}`;
@@ -1954,7 +1879,7 @@ var AIImageAnalyzerSettingsTab = class extends import_obsidian.PluginSettingTab 
         await clearCache();
       }
     }));
-    new import_obsidian.Setting(containerEl).setName("Pull Model").setDesc("Pull the selected model").addButton((button) => button.setButtonText("Pull llava").onClick(async () => await pullImage()));
+    new import_obsidian.Setting(containerEl).setName("Pull Model").setDesc("Pull the selected model").addButton((button) => button.setButtonText("Pull Model").onClick(async () => await pullImage()));
     new import_obsidian.Setting(containerEl).setName("Clear cache").setDesc("Clear the cache, reanalyzing images could take a while").addButton((button) => button.setButtonText("Clear cache").onClick(async () => {
       await clearCache();
       new import_obsidian.Notice("Cache cleared");
@@ -2072,6 +1997,7 @@ async function analyzeImageWithNotice(file) {
   } catch (e) {
     debugLog(e);
     new import_obsidian2.Notice("Failed to analyze image");
+    new import_obsidian2.Notice(e.toString());
     return "";
   }
 }
@@ -2085,10 +2011,11 @@ async function analyzeToClipboard(file) {
   }
 }
 async function pullImage() {
+  let progressNotice;
   try {
     new import_obsidian2.Notice(`Pulling ${settings.ollamaModel.name} model started, this may take a while...`);
     const response = await ollama.pull({ model: settings.ollamaModel.model, stream: true });
-    const progressNotice = new import_obsidian2.Notice(`Pulling ${settings.ollamaModel.name} model 0%`, 0);
+    progressNotice = new import_obsidian2.Notice(`Pulling ${settings.ollamaModel.name} model 0%`, 0);
     for await (const part of response) {
       debugLog(part);
       if (part.total !== null && part.completed !== null) {
@@ -2105,7 +2032,9 @@ async function pullImage() {
     new import_obsidian2.Notice(`${settings.ollamaModel.name} model pulled successfully`);
   } catch (e) {
     debugLog(e);
-    new import_obsidian2.Notice("Failed to pull ${model.name} model");
+    progressNotice == null ? void 0 : progressNotice.hide();
+    new import_obsidian2.Notice(`Failed to pull ${settings.ollamaModel.name} model`);
+    new import_obsidian2.Notice(e.toString());
   }
 }
 async function checkOllama() {
@@ -2118,6 +2047,7 @@ async function checkOllama() {
   } catch (e) {
     debugLog(e);
     new import_obsidian2.Notice("Failed to connect to Ollama.");
+    new import_obsidian2.Notice(e.toString());
   }
 }
 function setOllama(ollamaInstance) {
@@ -2220,3 +2150,5 @@ function getActiveFile() {
   var _a, _b;
   return (_b = (_a = this.app.workspace.activeEditor) == null ? void 0 : _a.file) != null ? _b : this.app.workspace.getActiveFile();
 }
+
+/* nosourcemap */
