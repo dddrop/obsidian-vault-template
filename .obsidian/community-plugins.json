@@ -37,7 +37,6 @@
   "folder-notes",
   "obsidian-leaflet-plugin",
   "obsidian-local-images-plus",
-  "markdown-prettifier",
   "mermaid-tools",
   "omnisearch",
   "obsidian-projects",
@@ -46,5 +45,7 @@
   "buttons",
   "obsidian-meta-bind-plugin",
   "zettelflow",
-  "dbfolder"
+  "dbfolder",
+  "markdown-prettifier",
+  "prettier"
 ]
